@@ -2032,7 +2032,7 @@ Oxylabs: $1.60 █████████████████████�
 
 ## 📄 License
 
-This project is licensed under the MIT License. Platform usage is governed by our [Terms of Service](https://www.scrapeless.com/terms).
+This project is licensed under the MIT License. Platform usage is governed by our [Terms of Service](https://www.scrapeless.com/en/legal/terms).
 
 ⭐ **Star this repository if you find it helpful!**
 
