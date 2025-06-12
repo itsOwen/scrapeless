@@ -1,14 +1,26 @@
-# 🚀 Scrapeless - AI-Powered Web Scraping Platform
+<h1 align="center">🚀 Scrapeless - The Future of Web Scraping 👑</h1>
 
+<p align="center">
+  <img src="./scrapeless.png" alt="Scrapeless" />
+</p>
+
+<div align="center">
+	
 [![Website](https://img.shields.io/badge/Website-scrapeless.com-blue)](https://www.scrapeless.com)
 [![Documentation](https://img.shields.io/badge/Docs-Available-green)](https://docs.scrapeless.com)
 [![API Status](https://img.shields.io/badge/API-99.95%25_Uptime-brightgreen)](https://status.scrapeless.com)
 [![Success Rate](https://img.shields.io/badge/Success_Rate-98.5%25-success)](https://www.scrapeless.com/pricing)
-[![Discord](https://img.shields.io/discord/123456789?color=7289da)](https://discord.com/invite/xBcTfGPjCQ)
+[![Discord](https://img.shields.io/badge/Discord-7289da?logo=discord&logoColor=white)](https://discord.com/invite/xBcTfGPjCQ)
 
+</div>
+
+<p align="center">
 The most advanced, cost-effective, and AI-optimized web scraping platform for enterprise and developers.
+</p>
 
-**🎯 46-84% cheaper than competitors • ⚡ 98.5%+ success rate • 🚀 1-2s response time • 🌍 80M+ proxy IPs**
+<p align="center">
+<strong>🎯 46-84% cheaper than competitors • ⚡ 98.5%+ success rate • 🚀 1-2s response time • 🌍 80M+ proxy IPs</strong>
+</p>
 
 ## 📋 Table of Contents
 
@@ -1283,7 +1295,7 @@ def competitive_price_monitoring():
     amazon_data = {
         "type": "amazon.product",
         "url": "https://amazon.com/dp/B08N5WRWNW",
-        "extract": ["price", "title", "reviews", "stock"]
+        "extract": ["price", "title", "", "stock"]
     }
     
     amazon_result = scrapeless.scraper(amazon_actor, input=amazon_data)
@@ -1293,7 +1305,7 @@ def competitive_price_monitoring():
     shopee_data = {
         "type": "shopee.product", 
         "url": "https://shopee.tw/product-link",
-        "extract": ["price", "title", "reviews"]
+        "extract": ["price", "title", ""]
     }
     
     shopee_result = scrapeless.scraper(shopee_actor, input=shopee_data)
@@ -1920,10 +1932,10 @@ The Go SDK provides comprehensive access to all Scrapeless services:
 
 ### 🏆 Industry Recognition
 
-- **🥇 Best Web Scraping Platform 2024** - Product Hunt
-- **⭐ 4.9/5 Star Rating** - G2 Reviews (500+ reviews)
-- **🏅 Top Developer Tool** - GitHub Trending
-- **💎 Editor's Choice** - TechCrunch
+- **🥇 5/5 Star Rating** - G2 Reviews
+- **⭐ 4.6/5 Star Rating** - Trustpilot
+- **🏅 5/5 Star Rating** - Slashdot
+- **💎 5/5 Star Rating** - Tekpon
 
 ### 📊 ROI Case Studies
 
