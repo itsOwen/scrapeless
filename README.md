@@ -78,21 +78,53 @@ graph TB
 - **Real-time Retry Logic**: Intelligent error handling and recovery
 - **Multiple Output Formats**: JSON, XML, CSV, Raw HTML
 
+### Scraping API
 ```python
-import requests
+from scrapeless import ScrapelessClient
 
-response = requests.post(
-    "https://api.scrapeless.com/api/v1/unlocker/request",
-    headers={"x-api-token": "your_api_key"},
-    json={
-        "actor": "unlocker.webunlocker",
-        "input": {
-            "url": "https://example.com",
-            "js_render": True,
-            "proxy_country": "US"
-        }
-    }
-)
+scrapeless = ScrapelessClient(api_key='your-api-key')
+
+actor = "scraper.shopee"
+input_data = {
+  "type": "shopee.product",
+  "url": "https://shopee.tw/2312312.10228173.24803858474"
+}
+
+result = scrapeless.scraper(actor, input=input_data)
+```
+
+### Web Unlocker
+```python
+from scrapeless import ScrapelessClient
+
+scrapeless = ScrapelessClient(api_key='your-api-key')
+
+actor = 'unlocker.webunlocker'
+input_data = {
+  "url": "https://www.scrapeless.com",
+  "proxy_country": "ANY",
+  "method": "GET",
+  "redirect": false,
+}
+
+result = scrapeless.unlocker(actor, input=input_data)
+```
+
+### Captcha Solver
+```python
+from scrapeless import ScrapelessClient
+
+scrapeless = ScrapelessClient(api_key='your-api-key')
+
+actor = 'captcha.recaptcha'
+input_data = {
+  "version": "v2",
+  "pageURL": "https://www.google.com",
+  "siteKey": "6Le-wvkSAAAAAPBMRTvw0Q4Muexq9bi0DJwx_mJ-",
+  "pageAction": ""
+}
+
+result = scrapeless.solver_captcha(actor, input=input_data, timeout=10)
 ```
 
 ### 🌐 Scraping Browser
@@ -4140,144 +4172,6 @@ for rank, player in enumerate(current_rankings[:10], 1):
   transition: transform 0.3s ease;
 }
 </style>
-```
-
----
-
-## 🎪 Community Events & Contests
-
-### 🏆 Annual ScrapeCon Conference
-```
-🎪 ScrapeCon 2025: "The Future of Data Intelligence"
-📅 March 15-17, 2025 | San Francisco, CA
-
-🎯 Conference Highlights:
-
-Day 1: Foundations & Innovation
-├── 🚀 Keynote: "AI Revolution in Web Data"
-├── 🛠️ Workshop: "Building Production Scraping Systems"
-├── 🧠 Panel: "Ethics in Data Collection"
-├── 🎯 Demo: "Next-Gen Scrapeless Features"
-└── 🥂 Welcome Reception & Networking
-
-Day 2: Technical Deep Dives
-├── ⚡ Session: "Performance Optimization at Scale"
-├── 🤖 Workshop: "AI-Powered Data Extraction"
-├── 🔒 Panel: "Security & Compliance Best Practices"
-├── 🏢 Case Study: "Enterprise Implementation Stories"
-└── 🎉 Community Awards Dinner
-
-Day 3: Future & Community
-├── 🔮 Keynote: "The Next Decade of Web Intelligence"
-├── 👥 Session: "Building Developer Communities"
-├── 🚀 Startup Pitch Competition ($100K prizes)
-├── 🤝 Partner Showcase
-└── 🎊 Closing Celebration
-
-🎫 Registration Tiers:
-• Early Bird: $299 (until Jan 15)
-• Regular: $399
-• Student: $99 (with verification)
-• Enterprise Group (5+): $249 per person
-
-🏆 Special Activities:
-• 48-hour Hackathon ($50K in prizes)
-• Certification bootcamp
-• One-on-one mentoring sessions
-• Open source contribution workshop
-• Job fair with top tech companies
-```
-
-### 🎮 Monthly Community Challenges
-```python
-class MonthlyChallenge:
-    """
-    Monthly community coding challenges with prizes
-    """
-    
-    def __init__(self):
-        self.current_challenge = self.get_current_challenge()
-        self.leaderboard = CommunityLeaderboard()
-        
-    def get_current_challenge(self):
-        challenges = {
-            "january": {
-                "title": "🏪 E-commerce Price Tracker Challenge",
-                "description": "Build the most comprehensive price tracking system",
-                "requirements": [
-                    "Monitor at least 5 different e-commerce sites",
-                    "Track price history and trends",
-                    "Implement alert system for price drops",
-                    "Create visualization dashboard",
-                    "Handle at least 1000 products"
-                ],
-                "prizes": {
-                    "1st": "$5,000 + ScrapeCon speaker slot",
-                    "2nd": "$2,500 + 1-year Pro plan",
-                    "3rd": "$1,000 + 6-month Pro plan"
-                },
-                "deadline": "January 31, 2025"
-            },
-            
-            "february": {
-                "title": "📰 Real-time News Intelligence Engine",
-                "description": "Create the smartest news aggregation system",
-                "requirements": [
-                    "Process news from 50+ sources globally",
-                    "Implement AI-powered categorization",
-                    "Detect trending topics in real-time",
-                    "Generate automated summaries",
-                    "Create sentiment analysis dashboard"
-                ],
-                "prizes": {
-                    "1st": "$5,000 + Feature in Scrapeless blog",
-                    "2nd": "$2,500 + Direct mentorship",
-                    "3rd": "$1,000 + Community recognition"
-                },
-                "deadline": "February 28, 2025"
-            },
-            
-            "march": {
-                "title": "🔍 Lead Generation Machine",
-                "description": "Build the ultimate B2B lead discovery tool",
-                "requirements": [
-                    "Extract leads from multiple platforms",
-                    "Implement AI-powered lead scoring",
-                    "Create contact enrichment pipeline",
-                    "Build CRM integration",
-                    "Achieve 90%+ data accuracy"
-                ],
-                "prizes": {
-                    "1st": "$7,500 + Startup accelerator program",
-                    "2nd": "$3,500 + Enterprise consultation",
-                    "3rd": "$1,500 + Priority support access"
-                },
-                "deadline": "March 31, 2025"
-            }
-        }
-        
-        current_month = datetime.now().strftime("%B").lower()
-        return challenges.get(current_month, challenges["january"])
-    
-    def submit_entry(self, github_repo, demo_url, description):
-        """
-        Submit your challenge entry
-        """
-        return {
-            "submission_id": self.generate_submission_id(),
-            "github_repo": github_repo,
-            "demo_url": demo_url,
-            "description": description,
-            "submission_time": datetime.now(),
-            "status": "under_review",
-            "feedback": "Thank you for your submission! Our team will review it within 5 business days."
-        }
-
-# Current challenge details
-challenge = MonthlyChallenge()
-print(f"🎯 Current Challenge: {challenge.current_challenge['title']}")
-print(f"💰 1st Prize: {challenge.current_challenge['prizes']['1st']}")
-print(f"⏰ Deadline: {challenge.current_challenge['deadline']}")
 ```
 
 ---
