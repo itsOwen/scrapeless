@@ -224,16 +224,10 @@ def ai_web_pipeline(url):
 ### Official SDKs
 ```bash
 # Python
-pip install scrapeless-ai
+pip install scrapeless
 
 # Node.js
 npm install @scrapeless-ai/sdk
-
-# Go
-go get github.com/scrapeless-ai/sdk-go
-
-# PHP
-composer require scrapeless/sdk
 ```
 
 ### Framework Integrations
@@ -366,7 +360,7 @@ export SCRAPELESS_API_KEY="sk_your_api_key_here"
 
 ### 2. Install SDK
 ```bash
-pip install scrapeless-ai
+pip install scrapeless
 ```
 
 ### 3. First Request
@@ -1567,23 +1561,6 @@ journey
 • Higher priority in feature requests
 ```
 
-### 🎯 Interactive Web Scraping Playground
-```html
-<!-- Embed this in your documentation or demo page -->
-<iframe 
-    src="https://playground.scrapeless.com/embed" 
-    width="100%" 
-    height="600px"
-    style="border: 1px solid #ddd; border-radius: 8px;">
-</iframe>
-
-<!-- Try it live: -->
-<!-- 1. Enter any URL -->
-<!-- 2. Configure options -->
-<!-- 3. See results in real-time -->
-<!-- 4. Generate code automatically -->
-```
-
 ### 🧠 AI-Powered Code Generator
 ```mermaid
 graph LR
@@ -1913,45 +1890,6 @@ flowchart TD
 
 ## 🎪 Interactive Code Playground
 
-### 🔥 Try It Now - Live Code Editor
-```html
-<!-- Embedded IDE with Scrapeless examples -->
-<div id="scrapeless-playground">
-  <div class="editor-panel">
-    <h3>🚀 Live Scrapeless Code Editor</h3>
-    <textarea id="code-editor" rows="20" cols="80">
-from scrapeless import ScrapingAPI
-
-# Initialize Scrapeless
-scraper = ScrapingAPI(api_key="demo_key")
-
-# Try scraping this URL
-result = scraper.scrape("https://httpbin.org/json")
-
-print("Status:", result.status_code)
-print("Data:", result.json)
-print("Response Time:", result.response_time)
-
-# Try different options
-result2 = scraper.scrape(
-    "https://example.com",
-    render_js=True,
-    proxy_country="US", 
-    ai_extract={"title": "h1", "links": "a@href"}
-)
-
-print("AI Extracted Data:", result2.structured_data)
-    </textarea>
-    <button onclick="runCode()">▶️ Run Code</button>
-  </div>
-  
-  <div class="output-panel">
-    <h3>📊 Live Output</h3>
-    <div id="output-console"></div>
-  </div>
-</div>
-```
-
 ### 🎮 Interactive Tutorials
 ```mermaid
 graph LR
@@ -2017,44 +1955,6 @@ graph TB
     style C fill:#f3e5f5
     style D fill:#fff3e0
     style E fill:#fce4ec
-```
-
-### 📦 Community Packages
-```python
-# Install community packages
-pip install scrapeless-ecommerce-pack
-pip install scrapeless-news-intelligence
-pip install scrapeless-social-media-tools
-
-# Use pre-built extractors
-from scrapeless_ecommerce import AmazonExtractor, ShopifyExtractor
-from scrapeless_news import NewsAnalyzer, TrendDetector
-from scrapeless_social import TwitterSentiment, LinkedInLeads
-
-# Amazon product monitoring (pre-configured)
-amazon = AmazonExtractor(api_key="your_key")
-products = amazon.monitor_products(
-    asins=["B08N5WRWNW", "B08N5WRXYZ"],
-    metrics=["price", "rank", "reviews"],
-    alerts=True
-)
-
-# News trend analysis (AI-powered)
-news = NewsAnalyzer(api_key="your_key")
-trends = news.analyze_trends(
-    topics=["artificial intelligence", "web scraping"],
-    sources=["techcrunch", "venturebeat", "wired"],
-    sentiment=True
-)
-
-# LinkedIn lead generation (automated)
-linkedin = LinkedInLeads(api_key="your_key")
-leads = linkedin.find_prospects(
-    industry="Software",
-    location="San Francisco",
-    role="CTO",
-    company_size="50-200"
-)
 ```
 
 ---
@@ -2488,7 +2388,7 @@ jobs:
           python-version: '3.9'
           
       - name: Install Scrapeless SDK
-        run: pip install scrapeless-ai
+        run: pip install scrapeless
         
       - name: Run Scraping Pipeline
         env:
@@ -2932,7 +2832,7 @@ graph LR
     
     B -.-> B1[📧 Email verification]
     C -.-> C1[💾 Save securely]
-    D -.-> D1[pip install scrapeless-ai]
+    D -.-> D1[pip install scrapeless]
     E -.-> E1[Copy example code]
     F -.-> F1[98.5% success rate]
     
@@ -3058,8 +2958,7 @@ adventure_paths = {
 
 ### ⭐ **If this project helps you, please star this repository!** ⭐
 
-[![Star on GitHub](https://img.shields.io/github/stars/scrapeless-ai/examples?style=for-the-badge&logo=github&color=yellow)](https://github.com/scrapeless-ai/examples)
-[![Follow on Twitter](https://img.shields.io/twitter/follow/ScrapelessAI?style=for-the-badge&logo=twitter&color=blue)](https://twitter.com/ScrapelessAI)
+[![Star on GitHub](https://img.shields.io/github/scrapeless/examples?style=for-the-badge&logo=github&color=yellow)](https://github.com/scrapeless-ai/)
 [![Join Discord](https://img.shields.io/discord/123456789?style=for-the-badge&logo=discord&color=purple)](https://discord.gg/scrapeless)
 
 ---
@@ -3071,59 +2970,6 @@ adventure_paths = {
 </div>
 
 ---
-
----
-
-## 🎮 Interactive Feature Demos
-
-### 🕹️ Real-Time Performance Monitor
-```html
-<!-- Live performance widget you can embed -->
-<iframe 
-  src="https://status.scrapeless.com/widget" 
-  width="100%" 
-  height="400px"
-  style="border: none; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.1);">
-</iframe>
-
-<!-- Shows live metrics: -->
-<!-- ✅ 98.7% Success Rate (Last 24h) -->
-<!-- ⚡ 1.23s Avg Response Time -->
-<!-- 🌍 15 Active Regions -->
-<!-- 🔥 2.3M Requests Processed Today -->
-```
-
-### 🎯 Cost Calculator Widget
-```javascript
-// Interactive cost calculator
-function calculateSavings(monthlyRequests) {
-    const scrapelessCost = monthlyRequests * 0.0002; // $0.20 per 1K
-    const competitorCosts = {
-        scrapingbee: monthlyRequests * 0.001,    // $1.00 per 1K
-        scrapingant: monthlyRequests * 0.00098,  // $0.98 per 1K
-        brightdata: monthlyRequests * 0.00278,   // $2.78 per 1K
-        apify: monthlyRequests * 0.00123,        // $1.23 per 1K
-        oxylabs: monthlyRequests * 0.0016        // $1.60 per 1K
-    };
-    
-    const savings = Object.entries(competitorCosts).map(([name, cost]) => ({
-        competitor: name,
-        savings: cost - scrapelessCost,
-        percentage: ((cost - scrapelessCost) / cost * 100).toFixed(1)
-    }));
-    
-    return {
-        scrapelessCost,
-        savings,
-        averageSavings: savings.reduce((acc, s) => acc + parseFloat(s.percentage), 0) / savings.length
-    };
-}
-
-// Example: 1M requests per month
-const result = calculateSavings(1000000);
-console.log(`You save an average of ${result.averageSavings.toFixed(1)}% monthly!`);
-// Output: "You save an average of 67.3% monthly!"
-```
 
 ---
 
@@ -4460,10 +4306,9 @@ You've just experienced the most comprehensive web scraping platform documentati
 
 ### 🤝 **Connect & Stay Updated**
 
-[![Twitter Follow](https://img.shields.io/twitter/follow/ScrapelessAI?style=for-the-badge&logo=twitter&color=1DA1F2&labelColor=black)](https://twitter.com/ScrapelessAI)
 [![Discord](https://img.shields.io/discord/123456789?style=for-the-badge&logo=discord&color=7289da&labelColor=black)](https://discord.gg/scrapeless)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&labelColor=black)](https://linkedin.com/company/scrapeless)
-[![YouTube](https://img.shields.io/badge/YouTube-Subscribe-FF0000?style=for-the-badge&logo=youtube&labelColor=black)](https://youtube.com/ScrapelessAI)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&labelColor=black)](https://www.linkedin.com/company/scrapeless/posts/?feedView=all)
+[![YouTube](https://img.shields.io/badge/YouTube-Subscribe-FF0000?style=for-the-badge&logo=youtube&labelColor=black)](https://www.youtube.com/@Scrapeless)
 
 ---
 
@@ -4629,10 +4474,9 @@ Oxylabs:       $1.60  ███████████████████�
 
 ### 📖 Complete Documentation
 - **[API Reference](https://docs.scrapeless.com/api)** - Complete API documentation
-- **[SDK Documentation](https://docs.scrapeless.com/sdks)** - All language SDKs
-- **[Integration Guides](https://docs.scrapeless.com/integrations)** - n8n, Zapier, Airflow
-- **[Best Practices](https://docs.scrapeless.com/best-practices)** - Optimization guide
-- **[Troubleshooting](https://docs.scrapeless.com/troubleshooting)** - Common issues
+- **[SDK Documentation](https://docs.scrapeless.com/en/sdk/overview/)** - All language SDKs
+- **[Integration Guides](https://docs.scrapeless.com/en/integrations/nstbrowser/introduction/)** - n8n, Zapier, Airflow
+- **[Troubleshooting](https://docs.scrapeless.com/en/general/faq/subscription/)** - Common issues
 
 ### 🎓 Learning Resources
 - **[Video Tutorials](https://www.youtube.com/scrapeless)** - Step-by-step guides
@@ -4689,9 +4533,8 @@ Oxylabs:       $1.60  ███████████████████�
 ### 🌐 Connect With Us
 - **Website**: [scrapeless.com](https://www.scrapeless.com)
 - **Documentation**: [docs.scrapeless.com](https://docs.scrapeless.com)
-- **Discord**: [discord.gg/scrapeless](https://discord.gg/scrapeless)
+- **Discord**: [https://discord.com/invite/xBcTfGPjCQ](https://discord.com/invite/xBcTfGPjCQ)
 - **Email**: support@scrapeless.com
-- **Twitter**: [@ScrapelessAI](https://twitter.com/ScrapelessAI)
 
 ---
 
@@ -4707,7 +4550,6 @@ This README and all associated documentation is provided under the MIT License. 
 
 *Transforming web data into AI-ready intelligence*
 
-[![Star on GitHub](https://img.shields.io/github/stars/scrapeless-ai/examples?style=social)](https://github.com/scrapeless-ai/examples)
-[![Follow on Twitter](https://img.shields.io/twitter/follow/ScrapelessAI?style=social)](https://twitter.com/ScrapelessAI)
+[![Join our Discord](https://img.shields.io/discord/?style=social)](https://discord.com/invite/xBcTfGPjCQ)
 
 </div>
