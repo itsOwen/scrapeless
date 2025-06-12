@@ -2019,8 +2019,7 @@ Oxylabs: $1.60 █████████████████████�
 - **👨‍💼 Dedicated Support** - Named customer success manager
 - **📋 SLA Guarantees** - 99.99% uptime commitment
 - **🏗️ On-premise Options** - Private cloud deployment
-- **📧 Email**: enterprise@scrapeless.com
-- **📞 Phone**: +1 (555) 123-4567
+- **📧 Email**: market@scrapeless.com
 
 ### 🌐 Connect With Us
 
@@ -2028,7 +2027,7 @@ Oxylabs: $1.60 █████████████████████�
 - **📚 Documentation**: [docs.scrapeless.com](https://docs.scrapeless.com)
 - **💬 Discord**: [Discord Community](https://discord.com/invite/xBcTfGPjCQ)
 - **💼 LinkedIn**: [Follow Us](https://www.linkedin.com/company/scrapeless/posts/?feedView=all)
-- **📧 Email**: support@scrapeless.com
+- **📧 Email**: market@scrapeless.com
 
 ## 📄 License
 
@@ -2037,5 +2036,3 @@ This project is licensed under the MIT License. Platform usage is governed by ou
 ⭐ **Star this repository if you find it helpful!**
 
 **🚀 Ready to transform your data strategy? [Start your free trial today!](https://app.scrapeless.com/signup) 🎯**
-
-### 🎊 **Join 50,000+ Developers Using Scrapeless** 🎊
