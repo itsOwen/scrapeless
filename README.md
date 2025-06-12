@@ -539,48 +539,6 @@ ENV PROXY_COUNTRY=US
 CMD ["python", "scraper.py"]
 ```
 
-### ☸️ Kubernetes Deployment
-
-```yaml
-apiVersion: v1
-kind: ConfigMap
-metadata:
-  name: scrapeless-config
-data:
-  api_key: "your_scrapeless_api_key"
-  concurrent_requests: "50"
-  proxy_country: "US"
-
----
-apiVersion: apps/v1
-kind: Deployment
-metadata:
-  name: scrapeless-worker
-spec:
-  replicas: 5
-  selector:
-    matchLabels:
-      app: scrapeless-worker
-  template:
-    metadata:
-      labels:
-        app: scrapeless-worker
-    spec:
-      containers:
-      - name: scraper
-        image: scrapeless/enterprise:latest
-        envFrom:
-        - configMapRef:
-            name: scrapeless-config
-        resources:
-          requests:
-            memory: "256Mi"
-            cpu: "250m"
-          limits:
-            memory: "512Mi"
-            cpu: "500m"
-```
-
 ### 🔄 Error Handling Best Practices
 
 #### Node.js 🟨
