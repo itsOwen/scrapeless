@@ -16,7 +16,9 @@ The most advanced, cost-effective, and AI-optimized web scraping platform for en
 - [🏗️ Platform Architecture](#️-platform-architecture)
 - [🎯 Core Services](#-core-services)
 - [⚡ Getting Started](#-getting-started)
-- [📚 API Reference](#-api-reference)
+- [📦 Installation](#-installation)
+- [📚 Usage Examples](#-usage-examples)
+- [📖 API Reference](#-api-reference)
 - [🛠️ SDK & Integrations](#️-sdk--integrations)
 - [💰 Pricing](#-pricing)
 - [🎪 Use Cases & Examples](#-use-cases--examples)
@@ -54,15 +56,13 @@ The most advanced, cost-effective, and AI-optimized web scraping platform for en
 ### 📈 Speed Comparison Chart
 
 ```
-
 Response Time Comparison:
 Scrapeless:     1.2s ████████████████████████████████
 ScrapingBee:    5.4s ████████████████████████████████████████████████████████████████████████████████
 ScrapingAnt:   15.6s ████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████
 Apify:          4.8s ████████████████████████████████████████████████████████████████████████████
 Oxylabs:        3.2s ████████████████████████████████████████████████████████
-
-````
+```
 
 ## 🏗️ Platform Architecture
 
@@ -97,7 +97,7 @@ graph TB
     style I fill:#fff3e0
     style J fill:#fff3e0
     style K fill:#fff3e0
-````
+```
 
 ### 🔄 Data Flow Architecture
 
@@ -148,83 +148,101 @@ flowchart TD
 
 **The smartest web scraping API that adapts to any website**
 
-  - **🧠 AI-Powered Adaptation**: Automatically adjusts to website changes
-  - **🖥️ JavaScript Rendering**: Full Chrome browser simulation
-  - **🔓 99.3% CAPTCHA Solving**: Advanced ML-based CAPTCHA bypass
-  - **🔄 Real-time Retry Logic**: Intelligent error handling and recovery
-  - **📊 Multiple Output Formats**: JSON, XML, CSV, Raw HTML
+- **🧠 AI-Powered Adaptation**: Automatically adjusts to website changes
+- **🖥️ JavaScript Rendering**: Full Chrome browser simulation
+- **🔓 99.3% CAPTCHA Solving**: Advanced ML-based CAPTCHA bypass
+- **🔄 Real-time Retry Logic**: Intelligent error handling and recovery
+- **📊 Multiple Output Formats**: JSON, XML, CSV, Raw HTML
 
 ### 🌐 Scraping Browser
 
 **Unlimited concurrent browser automation with enterprise-grade stealth**
 
-  - **🎭 Chrome Kernel Simulation**: Undetectable browser fingerprinting
-  - **♾️ Unlimited Concurrency**: Scale to thousands of parallel sessions
-  - **⏱️ Session Management**: Persistent sessions with custom TTL
-  - **🔗 WebSocket Integration**: Real-time browser control
-  - **🔧 Compatible with**: Puppeteer, Playwright, Selenium
+- **🎭 Chrome Kernel Simulation**: Undetectable browser fingerprinting
+- **♾️ Unlimited Concurrency**: Scale to thousands of parallel sessions
+- **⏱️ Session Management**: Persistent sessions with custom TTL
+- **🔗 WebSocket Integration**: Real-time browser control
+- **🔧 Compatible with**: Puppeteer, Playwright, Selenium
 
 ### 🔍 Deep SerpApi
 
 **Purpose-built for AI/LLM applications with 20+ Google SERP types**
 
-  - **⚡ 1-2 Second Response**: Fastest SERP API in the market
-  - **📊 20+ SERP Types**: Search, Images, News, Shopping, Local, etc.
-  - **🤖 LLM-Optimized Output**: Structured data ready for AI consumption
-  - **🕒 Real-time Data**: Live search results with geo-targeting
-  - **🌍 Multi-language Support**: 100+ languages and locales
+- **⚡ 1-2 Second Response**: Fastest SERP API in the market
+- **📊 20+ SERP Types**: Search, Images, News, Shopping, Local, etc.
+- **🤖 LLM-Optimized Output**: Structured data ready for AI consumption
+- **🕒 Real-time Data**: Live search results with geo-targeting
+- **🌍 Multi-language Support**: 100+ languages and locales
 
 ### 📊 Specialized Scraping APIs
 
 **Pre-built extractors for 100+ popular websites**
 
-  - **🛒 E-commerce**: Amazon, Shopee, Walmart, Temu, Lazada
-  - **📱 Social Media**: Instagram, TikTok, LinkedIn
-  - **✈️ Travel**: Airbnb, Booking.com, LATAM, Localiza
-  - **🔍 Search Engines**: Google Trends, Bing, DuckDuckGo
-  - **💼 Business Data**: Crunchbase, LinkedIn, Yellow Pages
+- **🛒 E-commerce**: Amazon, Shopee, Walmart, Temu, Lazada
+- **📱 Social Media**: Instagram, TikTok, LinkedIn
+- **✈️ Travel**: Airbnb, Booking.com, LATAM, Localiza
+- **🔍 Search Engines**: Google Trends, Bing, DuckDuckGo
+- **💼 Business Data**: Crunchbase, LinkedIn, Yellow Pages
 
 ### 🌍 Global Proxy Network
 
 **80M+ premium IPs with 99.99% ban avoidance**
 
-  - **🏠 80M+ Residential IPs**: Across 195+ countries
-  - **🏢 20M+ Datacenter IPs**: High-speed dedicated proxies
-  - **🤖 Smart Rotation**: AI-powered IP selection
-  - **🎯 Geo-targeting**: City-level precision
-  - **🔗 Protocol Support**: HTTP, HTTPS, SOCKS5
+- **🏠 80M+ Residential IPs**: Across 195+ countries
+- **🏢 20M+ Datacenter IPs**: High-speed dedicated proxies
+- **🤖 Smart Rotation**: AI-powered IP selection
+- **🎯 Geo-targeting**: City-level precision
+- **🔗 Protocol Support**: HTTP, HTTPS, SOCKS5
 
 ## ⚡ Getting Started
 
 ### 🚀 Quick Setup
 
-1.  **📝 Sign up** at [app.scrapeless.com](https://app.scrapeless.com)
-2.  **🔑 Get your API key** from the dashboard
-3.  **📦 Install SDK**
+1. **📝 Sign up** at [app.scrapeless.com](https://app.scrapeless.com)
+2. **🔑 Get your API key** from the dashboard
+3. **📦 Install SDK** (choose your language)
+4. **🎯 Make your first request**
 
-<!-- end list -->
+## 📦 Installation
+
+### Python 🐍
 
 ```bash
-# Python 🐍
 pip install scrapeless
+```
 
-# Node.js 🟨
+### Node.js 🟨
+
+```bash
 npm install @scrapeless-ai/sdk
 ```
 
-4.  **🎯 Make your first request**
+### Go 🔵
 
-#### Python Example 🐍
+```bash
+go get -u github.com/scrapeless-ai/sdk-go
+```
+
+### MCP Server 🤖
+
+```bash
+npx -y scrapeless-mcp-server
+```
+
+## 📚 Usage Examples
+
+### Python Examples 🐍
+
+#### Universal Web Scraping
 
 ```python
 from scrapeless import ScrapelessClient
 
 scrapeless = ScrapelessClient(api_key='your-api-key')
 
-# Universal web scraping
 actor = "scraper.universal"
 input_data = {
-    "url": "[https://example.com](https://example.com)",
+    "url": "https://example.com",
     "render_js": True,
     "proxy_country": "US"
 }
@@ -233,7 +251,95 @@ result = scrapeless.scraper(actor, input=input_data)
 print(result)
 ```
 
-#### Node.js Example 🟨
+#### Shopee Product Scraping
+
+```python
+from scrapeless import ScrapelessClient
+
+scrapeless = ScrapelessClient(api_key='your-api-key')
+
+actor = "scraper.shopee"
+input_data = {
+    "type": "shopee.product",
+    "url": "https://shopee.tw/2312312.10228173.24803858474"
+}
+
+result = scrapeless.scraper(actor, input=input_data)
+```
+
+#### Web Unlocker
+
+```python
+from scrapeless import ScrapelessClient
+
+scrapeless = ScrapelessClient(api_key='your-api-key')
+
+actor = 'unlocker.webunlocker'
+input_data = {
+    "url": "https://www.scrapeless.com",
+    "proxy_country": "ANY",
+    "method": "GET",
+    "redirect": False,
+}
+
+result = scrapeless.unlocker(actor, input=input_data)
+```
+
+#### CAPTCHA Solver
+
+```python
+from scrapeless import ScrapelessClient
+
+scrapeless = ScrapelessClient(api_key='your-api-key')
+
+actor = 'captcha.recaptcha'
+input_data = {
+    "version": "v2",
+    "pageURL": "https://www.google.com",
+    "siteKey": "6Le-wvkSAAAAAPBMRTvw0Q4Muexq9bi0DJwx_mJ-",
+    "pageAction": ""
+}
+
+result = scrapeless.solver_captcha(actor, input=input_data, timeout=10)
+```
+
+#### Brazilian Business Data Scraping
+
+```python
+from scrapeless import ScrapelessClient
+
+scrapeless = ScrapelessClient(api_key='your-api-key')
+
+# Consopt scraping
+def br_consopt():
+    result = scrapeless.scraper(
+        actor="scraper.consopt",
+        input={
+            "taxId": "25032537000164",
+        },
+        proxy={
+            "country": "US",
+        }
+    )
+    print(result)
+
+# Solucoes scraping
+def br_solucoes():
+    result = scrapeless.scraper(
+        actor="scraper.solucoes",
+        input={
+            "taxId": "37.335.118/0001-80",
+        },
+        proxy={
+            "country": "US",
+        }
+    )
+    print(result)
+```
+
+### Node.js Examples 🟨
+
+#### Universal Scraping
 
 ```javascript
 import { Scrapeless } from '@scrapeless-ai/sdk';
@@ -244,7 +350,7 @@ const client = new Scrapeless({
 
 // Universal scraping
 const universalResult = await client.universal.scrape({
-  url: '[https://example.com](https://example.com)',
+  url: 'https://example.com',
   options: {
     javascript: true,
     screenshot: true,
@@ -255,9 +361,189 @@ const universalResult = await client.universal.scrape({
 console.log('Universal scraping result:', universalResult);
 ```
 
-## 📚 API Reference
+#### Web Scraping
 
-### 🕷️ Scraping API
+```javascript
+const result = await client.scraping.scrape({
+  actor: 'scraper.shopee',
+  input: {
+    url: 'https://shopee.tw/product/58418206/7180456348'
+  }
+});
+
+console.log('Scraping result: ', result);
+```
+
+#### Browser Automation with Puppeteer
+
+```javascript
+import { Puppeteer, createPuppeteerCDPSession } from '@scrapeless-ai/sdk';
+
+const browser = await Puppeteer.connect({
+  session_name: 'my-session',
+  session_ttl: 180,
+  proxy_country: 'US'
+});
+
+const page = await browser.newPage();
+await page.goto('https://example.com');
+
+// Enhanced automation features
+const cdpSession = await createPuppeteerCDPSession(page);
+
+await cdpSession.realClick('#login-btn');
+await cdpSession.realFill('#username', 'myuser');
+const urlInfo = await cdpSession.liveURL();
+
+console.log('Current page URL:', urlInfo.liveURL);
+await browser.close();
+```
+
+### Go Examples 🔵
+
+#### Basic Setup
+
+```go
+package main
+
+import (
+	scrapeless "github.com/scrapeless-ai/sdk-go/scrapeless/actor"
+)
+
+func main() {
+	// Initialize the actor
+	actor := scrapeless.New()
+	defer actor.Close()
+}
+```
+
+#### Browser Automation
+
+```go
+package main
+
+import (
+	"context"
+	scrapeless "github.com/scrapeless-ai/sdk-go/scrapeless/actor"
+	"github.com/scrapeless-ai/sdk-go/scrapeless/browser"
+	"github.com/scrapeless-ai/sdk-go/scrapeless/log"
+)
+
+func main() {
+	client := scrapeless.New(scrapeless.WithBrowser())
+	defer client.Close()
+
+	browserInfo, err := client.Browser.Create(context.Background(), browser.Actor{
+		Input:        browser.Input{SessionTtl: "180"},
+		ProxyCountry: "US",
+	})
+	if err != nil {
+		panic(err)
+	}
+	log.Infof("%+v", browserInfo)
+}
+```
+
+#### Web Scraping
+
+```go
+package main
+
+import (
+	"context"
+	scrapeless "github.com/scrapeless-ai/sdk-go/scrapeless/actor"
+	"github.com/scrapeless-ai/sdk-go/scrapeless/log"
+	"github.com/scrapeless-ai/sdk-go/scrapeless/scraping"
+)
+
+func main() {
+	client := scrapeless.New(scrapeless.WithScraping())
+
+	scrape, err := client.Scraping.Scrape(context.Background(), scraping.ScrapingTaskRequest{
+		Actor: "scraper.google.search",
+		Input: map[string]interface{}{
+			"q": "nike site:www.nike.com",
+		},
+		ProxyCountry: "US",
+	})
+	if err != nil {
+		log.Errorf("scraping create err:%v", err)
+		return
+	}
+	log.Infof("%+v", scrape)
+}
+```
+
+#### SERP Scraping
+
+```go
+package main
+
+import (
+	"context"
+	scrapeless "github.com/scrapeless-ai/sdk-go/scrapeless/actor"
+	"github.com/scrapeless-ai/sdk-go/scrapeless/deepserp"
+	"github.com/scrapeless-ai/sdk-go/scrapeless/log"
+)
+
+func main() {
+	client := scrapeless.New(scrapeless.WithDeepSerp())
+
+	scrape, err := client.DeepSerp.Scrape(context.Background(), deepserp.DeepserpTaskRequest{
+		Actor: "scraper.google.search",
+		Input: map[string]interface{}{
+			"q": "nike site:www.nike.com",
+		},
+		ProxyCountry: "US",
+	})
+	if err != nil {
+		log.Errorf("scraping create err:%v", err)
+		return
+	}
+	log.Infof("%+v", scrape)
+}
+```
+
+#### Actor System
+
+```go
+package main
+
+import (
+	"context"
+	"github.com/scrapeless-ai/sdk-go/internal/remote/actor"
+	"github.com/scrapeless-ai/sdk-go/scrapeless"
+	"github.com/scrapeless-ai/sdk-go/scrapeless/log"
+)
+
+func main() {
+	client := scrapeless.New(scrapeless.WithActor())
+	defer client.Close()
+
+	runId, err := client.Actor.Run(context.Background(), actor.IRunActorData{
+		ActorId: "554bbd68-c787-4900-b8b2-1086369c96e1",
+		Input: map[string]string{
+			"name": "test",
+			"url":  "https://www.google.com",
+		},
+		RunOptions: actor.RunOptions{
+			Version: "v0.0.3",
+		},
+	})
+	if err != nil {
+		panic(err)
+	}
+	runInfo, err := client.Actor.GetRunInfo(context.Background(), runId)
+	if err != nil {
+		panic(err)
+	}
+	log.Infof("runInfo:%+v", runInfo)
+}
+```
+
+## 📖 API Reference
+
+### 🕷️ Universal Scraping API
 
 #### Python 🐍
 
@@ -266,10 +552,11 @@ from scrapeless import ScrapelessClient
 
 scrapeless = ScrapelessClient(api_key='your-api-key')
 
-actor = "scraper.shopee"
+actor = "scraper.universal"
 input_data = {
-    "type": "shopee.product",
-    "url": "[https://shopee.tw/2312312.10228173.24803858474](https://shopee.tw/2312312.10228173.24803858474)"
+    "url": "https://example.com",
+    "render_js": True,
+    "proxy_country": "US"
 }
 
 result = scrapeless.scraper(actor, input=input_data)
@@ -279,13 +566,13 @@ result = scrapeless.scraper(actor, input=input_data)
 
 ```javascript
 const result = await client.scraping.scrape({
-  actor: 'scraper.shopee',
+  actor: 'scraper.universal',
   input: {
-    url: '[https://shopee.tw/product/58418206/7180456348](https://shopee.tw/product/58418206/7180456348)'
+    url: 'https://example.com',
+    render_js: true,
+    proxy_country: 'US'
   }
 });
-
-console.log('Scraping result: ', result);
 ```
 
 ### 🔓 Web Unlocker
@@ -299,7 +586,7 @@ scrapeless = ScrapelessClient(api_key='your-api-key')
 
 actor = 'unlocker.webunlocker'
 input_data = {
-    "url": "[https://www.scrapeless.com](https://www.scrapeless.com)",
+    "url": "https://www.scrapeless.com",
     "proxy_country": "ANY",
     "method": "GET",
     "redirect": False,
@@ -327,18 +614,36 @@ console.log('Browser session info:', session);
 
 ```python
 from scrapeless import ScrapelessClient
+import time
 
-scrapeless = ScrapelessClient(api_key='your-api-key')
+scrapeless = ScrapelessClient(api_key="your-api-key")
 
-actor = 'captcha.recaptcha'
-input_data = {
-    "version": "v2",
-    "pageURL": "[https://www.google.com](https://www.google.com)",
-    "siteKey": "6Le-wvkSAAAAAPBMRTvw0Q4Muexq9bi0DJwx_mJ-",
-    "pageAction": ""
-}
+def solve_captcha():
+    actor = "captcha.recaptcha"
+    input_data = {
+        "version": "v2",
+        "pageURL": "https://www.google.com",
+        "siteKey": "6Le-wvkSAAAAAPBMRTvw0Q4Muexq9bi0DJwx_mJ-",
+        "pageAction": ""
+    }
 
-result = scrapeless.solver_captcha(actor, input=input_data, timeout=10)
+    result = scrapeless.create_captcha_task(actor, input=input_data)
+    return result
+
+def get_captcha_result(taskId):
+    result = scrapeless.get_captcha_task_result(taskId)
+    return result
+
+def main():
+    captcha_result = solve_captcha()
+    taskId = captcha_result["taskId"]
+
+    while True:
+        captcha_result = get_captcha_result(taskId)
+        if captcha_result["success"] == True:
+            print(captcha_result)
+            break
+        time.sleep(5)
 ```
 
 #### Node.js 🟨
@@ -348,7 +653,7 @@ result = scrapeless.solver_captcha(actor, input=input_data, timeout=10)
 const result = await client.scraping.scrape({
   actor: 'scraper.universal',
   input: {
-    url: '[https://example.com/with-captcha](https://example.com/with-captcha)',
+    url: 'https://example.com/with-captcha',
     solve_captcha: true
   }
 });
@@ -362,7 +667,7 @@ const result = await client.scraping.scrape({
 import requests
 
 response = requests.post(
-    "[https://api.scrapeless.com/api/v1/serp/search](https://api.scrapeless.com/api/v1/serp/search)",
+    "https://api.scrapeless.com/api/v1/serp/search",
     headers={"x-api-token": "your_api_key"},
     json={
         "engine": "Google Search",
@@ -380,7 +685,7 @@ response = requests.post(
 const searchResults = await client.deepserp.scrape({
   actor: 'scraper.google.search',
   input: {
-    q: 'nike site:[www.nike.com](https://www.nike.com)'
+    q: 'nike site:www.nike.com'
   }
 });
 
@@ -389,42 +694,17 @@ console.log('Search results:', searchResults);
 
 ### 🌐 Browser Automation
 
-#### Puppeteer with Node.js 🟨
-
-```javascript
-import { Puppeteer, createPuppeteerCDPSession } from '@scrapeless-ai/sdk';
-
-const browser = await Puppeteer.connect({
-  session_name: 'my-session',
-  session_ttl: 180,
-  proxy_country: 'US'
-});
-
-const page = await browser.newPage();
-await page.goto('[https://example.com](https://example.com)');
-
-// Enhanced automation features
-const cdpSession = await createPuppeteerCDPSession(page);
-
-await cdpSession.realClick('#login-btn');
-await cdpSession.realFill('#username', 'myuser');
-const urlInfo = await cdpSession.liveURL();
-
-console.log('Current page URL:', urlInfo.liveURL);
-await browser.close();
-```
-
 #### Standard Browser Connection 🟨
 
 ```javascript
 const puppeteer = require('puppeteer-core');
 
 const browser = await puppeteer.connect({
-    browserWSEndpoint: 'wss://[browser.scrapeless.com/browser?token=YOUR_TOKEN](https://browser.scrapeless.com/browser?token=YOUR_TOKEN)'
+    browserWSEndpoint: 'wss://browser.scrapeless.com/browser?token=YOUR_TOKEN'
 });
 
 const page = await browser.newPage();
-await page.goto('[https://example.com](https://example.com)');
+await page.goto('https://example.com');
 ```
 
 ### 🔗 Proxy API
@@ -454,44 +734,425 @@ pip install scrapeless
 
 # Node.js SDK 🟨
 npm install @scrapeless-ai/sdk
+
+# Go SDK 🔵
+go get -u github.com/scrapeless-ai/sdk-go
+
+# MCP Server 🤖
+npm install scrapeless-mcp-server
 ```
 
 ### 🔧 Framework Integrations
 
-  - **🔄 n8n Workflow Automation** - Visual workflow builder
-  - **⚡ Zapier Integration** - Connect 5000+ apps
-  - **🔗 Make.com (Integromat)** - Advanced automation
-  - **🌊 Apache Airflow** - Data pipeline orchestration
-  - **🎯 Prefect** - Modern workflow management
+- **🔄 n8n Workflow Automation** - Visual workflow builder
+- **⚡ Zapier Integration** - Connect 5000+ apps
+- **🔗 Make.com (Integromat)** - Advanced automation
+- **🌊 Apache Airflow** - Data pipeline orchestration
+- **🎯 Prefect** - Modern workflow management
+
+### 🤖 Model Context Protocol (MCP) Server
+
+The Scrapeless MCP server enables seamless integration between LLM applications and Scrapeless services.
+
+#### Configuration
+
+```json
+{
+  "mcpServers": {
+    "scrapelessMcpServer": {
+      "command": "npx",
+      "args": ["-y", "scrapeless-mcp-server"],
+      "env": {
+        "SCRAPELESS_KEY": "YOUR_SCRAPELESS_KEY"
+      }
+    }
+  }
+}
+```
+
+#### Available Tools
+
+- **google-search**: Search the web using Google
+  - Parameters: `query`, `gl` (country), `hl` (language)
+- **google-flights-search**: Search for flights using Google Flights
+  - Parameters: `departure_id`, `arrival_id`, `outbound_date`, `return_date`, etc.
+
+### 📊 n8n Workflow Integration
+
+Building an AI-powered data pipeline with n8n, Scrapeless, and Claude:
+
+```mermaid
+flowchart TD
+    A[⏰ Trigger/Schedule] --> B[✅ Collection Check]
+    B --> C[🔧 URL Configuration]
+    C --> D[🕷️ Scrapeless Web Request]
+    D --> E[🧠 Claude Data Extraction]
+    E --> F[📝 Format Output]
+    F --> G[🤖 Ollama Embeddings]
+    G --> H[🗃️ Qdrant Vector Storage]
+    H --> I[🔔 Notification]
+    
+    style A fill:#e3f2fd
+    style D fill:#e8f5e8
+    style E fill:#f3e5f5
+    style H fill:#fff3e0
+```
+
+#### Installation
+
+```bash
+# Check your Node.js version
+node -v
+
+# Install n8n globally
+npm install n8n -g
+
+# Run n8n
+n8n
+```
+
+#### Scrapeless Configuration
+
+```bash
+curl -X POST "https://api.scrapeless.com/api/v1/unlocker/request" \
+  -H "Content-Type: application/json" \
+  -H "x-api-token: scrapeless_api_key" \
+  -d '{
+    "actor": "unlocker.webunlocker",
+    "proxy": {
+      "country": "ANY"
+    },
+    "input": {
+      "url": "https://www.scrapeless.com",
+      "method": "GET",
+      "redirect": true,
+      "js_render": true,
+      "js_instructions": [{"wait":100}]
+    }
+  }'
+```
 
 ### 🧠 AI Framework Integrations
 
-#### 🦜 LangChain Integration
+#### 🤖 How Scrapeless Powers AI-Driven Data Extraction
+
+Scrapeless provides the enterprise-grade infrastructure that AI tools need for reliable web data extraction. Unlike traditional scrapers that fail on modern websites, Scrapeless's 98.5% success rate makes it the backbone for AI-powered data pipelines.
+
+#### 🔧 Direct API Integration
 
 ```python
-from langchain.document_loaders import ScrapelessLoader
-from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain.vectorstores import Chroma
-from langchain.embeddings import OpenAIEmbeddings
+# Core Scrapeless integration for any AI tool
+from scrapeless import ScrapelessClient
+import requests
 
-# Seamless LangChain integration
+class ScrapelessAIIntegration:
+    def __init__(self, api_key: str):
+        self.scrapeless = ScrapelessClient(api_key=api_key)
+    
+    def get_clean_content(self, url: str, country: str = "US") -> str:
+        """Get clean HTML content for AI processing"""
+        try:
+            # Scrapeless handles all the complexity
+            result = self.scrapeless.unlocker(
+                actor="unlocker.webunlocker",
+                input={
+                    "url": url,
+                    "method": "GET",
+                    "js_render": True,
+                    "redirect": True
+                },
+                proxy={"country": country}
+            )
+            
+            if result["code"] == 200:
+                return result["data"]["html"]
+            else:
+                return f"Error: {result.get('message', 'Unknown error')}"
+                
+        except Exception as e:
+            return f"Error: {str(e)}"
+    
+    def batch_extract(self, urls: list, country: str = "US") -> list:
+        """Extract content from multiple URLs for AI processing"""
+        results = []
+        for url in urls:
+            content = self.get_clean_content(url, country)
+            results.append({"url": url, "content": content})
+        return results
+
+# Usage with any AI model
+scraper = ScrapelessAIIntegration("your-scrapeless-key")
+content = scraper.get_clean_content("https://example.com")
+
+# Now feed this content to your AI model of choice
+# Works with OpenAI, Claude, Gemini, local models, etc.
+```
+
+#### 🌊 n8n + Claude + Scrapeless Workflow
+
+Based on the comprehensive guide for building AI-powered data pipelines, here's how Scrapeless integrates with n8n and Claude:
+
+```bash
+# Step 1: Setup n8n workflow automation
+# Install n8n (requires Node.js v18, v20, or v22)
+node -v  # Check version
+npm install n8n -g
+n8n  # Start n8n at http://localhost:5678
+```
+
+```json
+# Step 2: Configure Scrapeless HTTP Request Node in n8n
+{
+  "method": "POST",
+  "url": "https://api.scrapeless.com/api/v1/unlocker/request",
+  "headers": {
+    "Content-Type": "application/json",
+    "x-api-token": "your-scrapeless-api-key"
+  },
+  "body": {
+    "actor": "unlocker.webunlocker",
+    "proxy": {
+      "country": "ANY"
+    },
+    "input": {
+      "url": "{{ $json.target_url }}",
+      "method": "GET",
+      "redirect": true,
+      "js_render": true,
+      "js_instructions": [{"wait": 100}],
+      "block": {
+        "resources": ["image", "font", "script"],
+        "urls": ["https://example.com"]
+      }
+    }
+  }
+}
+```
+
+**Complete n8n Workflow Pipeline:**
+
+1. **Manual/Scheduled Trigger** → Starts the workflow
+2. **Collection Check** → Verifies if Qdrant collection exists  
+3. **URL Configuration** → Sets target URL and parameters
+4. **Scrapeless Web Request** → Extracts HTML content with 98.5% success rate
+5. **Claude Data Extraction** → AI processes and structures the data
+6. **Ollama Embeddings** → Generates vector embeddings  
+7. **Qdrant Storage** → Saves vectors and metadata
+8. **Notification** → Sends status updates via webhook
+
+```python
+# Step 3: Claude AI processing node configuration
+claude_prompt = """
+Analyze this HTML content and extract structured information.
+Focus on: {extraction_goals}
+
+HTML Content: {html_from_scrapeless}
+
+Return clean JSON with the extracted data.
+"""
+
+# The n8n workflow processes the Scrapeless response through Claude
+# then stores the structured output in vector databases
+```
+
+#### 🦜 Integration with Popular AI Frameworks
+
+**LangChain Integration:**
+```python
+# Custom Scrapeless Document Loader for LangChain
+from langchain.document_loaders import BaseLoader
+from langchain.schema import Document
+from scrapeless import ScrapelessClient
+
+class ScrapelessLoader(BaseLoader):
+    def __init__(self, urls: list, api_key: str, proxy_country: str = "US"):
+        self.urls = urls
+        self.scrapeless = ScrapelessClient(api_key=api_key)
+        self.proxy_country = proxy_country
+    
+    def load(self) -> list[Document]:
+        documents = []
+        for url in self.urls:
+            try:
+                result = self.scrapeless.unlocker(
+                    actor="unlocker.webunlocker",
+                    input={"url": url, "js_render": True},
+                    proxy={"country": self.proxy_country}
+                )
+                
+                if result["code"] == 200:
+                    content = result["data"]["html"]
+                    doc = Document(
+                        page_content=content,
+                        metadata={"source": url, "success_rate": "98.5%"}
+                    )
+                    documents.append(doc)
+            except Exception as e:
+                print(f"Error processing {url}: {e}")
+        
+        return documents
+
+# Usage
 loader = ScrapelessLoader(
-    urls=["[https://docs.python.org](https://docs.python.org)"],
-    api_key="your_scrapeless_key",
-    mode="smart_extraction"  # 🧠 AI-powered content extraction
+    urls=["https://docs.python.org", "https://example.com"],
+    api_key="your-scrapeless-key"
+)
+docs = loader.load()
+```
+
+**🦙 Llama Index Integration:**
+```python
+# Scrapeless Reader for Llama Index
+from llama_index.readers.base import BaseReader
+from llama_index.schema import Document
+from scrapeless import ScrapelessClient
+
+class ScrapelessReader(BaseReader):
+    def __init__(self, api_key: str):
+        self.scrapeless = ScrapelessClient(api_key=api_key)
+    
+    def load_data(self, urls: list, proxy_country: str = "US") -> list[Document]:
+        documents = []
+        for url in urls:
+            result = self.scrapeless.unlocker(
+                actor="unlocker.webunlocker",
+                input={"url": url, "js_render": True},
+                proxy={"country": proxy_country}
+            )
+            
+            if result["code"] == 200:
+                doc = Document(
+                    text=result["data"]["html"],
+                    metadata={"url": url, "extracted_by": "scrapeless"}
+                )
+                documents.append(doc)
+        
+        return documents
+
+# Usage
+reader = ScrapelessReader("your-scrapeless-key")
+documents = reader.load_data(["https://research.paper.com"])
+```
+
+#### 🤖 Integration with Other LLM-Based Scrapers
+
+**For Existing Scraper Tools:**
+
+Most LLM-based scrapers can integrate Scrapeless as their content fetching layer:
+
+```python
+# Generic integration pattern for any LLM scraper
+class YourExistingLLMScraper:
+    def __init__(self, llm_model, scrapeless_key: str):
+        self.llm = llm_model
+        self.content_fetcher = ScrapelessClient(api_key=scrapeless_key)
+    
+    def enhanced_scrape(self, url: str, extraction_prompt: str):
+        # Replace your existing content fetching with Scrapeless
+        # OLD: content = self.basic_fetch(url)  # Often fails
+        
+        # NEW: Use Scrapeless for reliable content fetching
+        result = self.content_fetcher.unlocker(
+            actor="unlocker.webunlocker",
+            input={"url": url, "js_render": True}
+        )
+        
+        if result["code"] == 200:
+            content = result["data"]["html"]
+            # Your existing LLM processing remains the same
+            return self.llm.process(content, extraction_prompt)
+        else:
+            return {"error": "Failed to fetch content"}
+
+# This works with any existing scraper:
+# - Scrapy + LLM projects
+# - BeautifulSoup + AI tools  
+# - Selenium + LLM workflows
+# - Custom scraping solutions
+```
+
+**For Popular Open Source Tools:**
+
+```text
+🔧 Integration Guides for Popular Tools:
+
+📊 **Scrapy + Scrapeless:**
+   Replace Scrapy's downloader with Scrapeless API calls
+   Benefits: 98.5% success rate vs Scrapy's ~40% on modern sites
+
+🤖 **AutoScraper + AI:**
+   Use Scrapeless to fetch content, AutoScraper for pattern learning
+   Benefits: Reliable content + intelligent pattern detection
+
+🌐 **Playwright + LLM:**
+   Replace Playwright browser automation with Scrapeless API
+   Benefits: No browser management + higher success rates
+
+🔍 **Beautiful Soup + AI:**
+   Use Scrapeless for fetching, BeautifulSoup for parsing
+   Benefits: Bypass anti-bot protection + familiar parsing
+
+📝 **Custom Python Scripts:**
+   Replace requests/urllib with Scrapeless client
+   Benefits: Enterprise infrastructure without code rewrites
+```
+
+#### ⚡ Why AI Tools Choose Scrapeless
+
+**Traditional Scraping Issues:**
+- ❌ 40-60% success rates on modern websites
+- ❌ Constant maintenance for anti-bot bypassing  
+- ❌ Complex proxy and CAPTCHA management
+- ❌ Browser automation overhead
+- ❌ Unreliable data for AI training
+
+**Scrapeless Solution:**
+- ✅ **98.5% success rate** - Reliable data for AI
+- ✅ **Zero maintenance** - Focus on AI, not infrastructure  
+- ✅ **Built-in CAPTCHA solving** - 99.3% solve rate
+- ✅ **Global proxy network** - 80M+ IPs across 195+ countries
+- ✅ **JavaScript rendering** - Full modern website support
+- ✅ **Enterprise security** - SOC 2, GDPR compliant
+
+#### 🔄 Migration from Other Services
+
+```python
+# Migrating from other scraping services to Scrapeless
+
+# OLD: ScrapingBee integration
+# response = requests.get(
+#     "https://app.scrapingbee.com/api/v1/",
+#     params={"api_key": "bee_key", "url": url}
+# )
+
+# NEW: Scrapeless integration  
+scrapeless = ScrapelessClient(api_key="scrapeless_key")
+result = scrapeless.unlocker(
+    actor="unlocker.webunlocker", 
+    input={"url": url, "js_render": True}
 )
 
-documents = loader.load()
+# Benefits: 96% faster, 48% cheaper, 98% more reliable
+```
 
-# Split and vectorize
-text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000)
-docs = text_splitter.split_documents(documents)
+**📊 Real Performance Comparison:**
+```text
+LLM Training Data Quality:
 
-vectorstore = Chroma.from_documents(docs, OpenAIEmbeddings())
+Traditional Scrapers:
+├── Success Rate: 40-60%
+├── Clean Data: ~30% (many failed requests)
+├── Maintenance: 10+ hours/week
+└── Cost: $500+ for reliable setup
 
-# Query your scraped data
-query = "How to handle errors in Python?"
-results = vectorstore.similarity_search(query)
+Scrapeless + AI:
+├── Success Rate: 98.5%  
+├── Clean Data: ~95% (consistent extractions)
+├── Maintenance: 0 hours/week
+└── Cost: $49+ (all-inclusive)
+
+🎯 Result: 3x more training data, 10x less maintenance, 90% cost savings
+
 ```
 
 #### 🦙 Llama Index Integration
@@ -505,8 +1166,8 @@ scraper = DocumentScraper(api_key="your_key")
 
 # Scrape and structure documents for AI
 documents = scraper.scrape_documents([
-    "[https://arxiv.org/abs/2301.00001](https://arxiv.org/abs/2301.00001)",
-    "[https://research.google/pubs/pub1234.html](https://research.google/pubs/pub1234.html)"
+    "https://arxiv.org/abs/2301.00001",
+    "https://research.google/pubs/pub1234.html"
 ], 
     ai_enhance=True,  # 🧠 AI-powered document understanding
     extract_citations=True,
@@ -548,7 +1209,7 @@ try {
   const result = await client.scraping.scrape({
     actor: 'scraper.shopee',
     input: {
-      url: '[https://shopee.tw/product/58418206/7180456348](https://shopee.tw/product/58418206/7180456348)'
+      url: 'https://shopee.tw/product/58418206/7180456348'
     }
   });
 } catch (error) {
@@ -585,11 +1246,11 @@ except Exception as e:
 
 ### 🎁 What's Included FREE
 
-  - ✅ **🆓 Free Trial Credits** - No credit card required
-  - ✅ **💬 24/7 Discord Support** - Real human developers
-  - ✅ **📚 Complete Documentation** - 100+ code examples
-  - ✅ **🚫 No Setup Fees** - Start immediately
-  - ✅ **✅ Pay-per-Success** - Only pay for successful requests
+- ✅ **🆓 Free Trial Credits** - No credit card required
+- ✅ **💬 24/7 Discord Support** - Real human developers
+- ✅ **📚 Complete Documentation** - 100+ code examples
+- ✅ **🚫 No Setup Fees** - Start immediately
+- ✅ **✅ Pay-per-Success** - Only pay for successful requests
 
 ### 💰 Cost Savings Calculator
 
@@ -621,7 +1282,7 @@ def competitive_price_monitoring():
     amazon_actor = "scraper.amazon"
     amazon_data = {
         "type": "amazon.product",
-        "url": "[https://amazon.com/dp/B08N5WRWNW](https://amazon.com/dp/B08N5WRWNW)",
+        "url": "https://amazon.com/dp/B08N5WRWNW",
         "extract": ["price", "title", "reviews", "stock"]
     }
     
@@ -631,7 +1292,7 @@ def competitive_price_monitoring():
     shopee_actor = "scraper.shopee"
     shopee_data = {
         "type": "shopee.product", 
-        "url": "[https://shopee.tw/product-link](https://shopee.tw/product-link)",
+        "url": "https://shopee.tw/product-link",
         "extract": ["price", "title", "reviews"]
     }
     
@@ -686,9 +1347,9 @@ def news_intelligence_pipeline():
     news_actor = "scraper.news"
     news_data = {
         "urls": [
-            "[https://cnn.com](https://cnn.com)",
-            "[https://bbc.com](https://bbc.com)", 
-            "[https://reuters.com](https://reuters.com)"
+            "https://cnn.com",
+            "https://bbc.com", 
+            "https://reuters.com"
         ],
         "extract": ["headline", "content", "author", "publish_date"],
         "ai_analysis": True  # 🧠 Enable AI sentiment analysis
@@ -760,7 +1421,7 @@ def search_intelligence_analysis():
     }
     
     response = requests.post(
-        "[https://api.scrapeless.com/api/v1/serp/search](https://api.scrapeless.com/api/v1/serp/search)",
+        "https://api.scrapeless.com/api/v1/serp/search",
         headers={"x-api-token": "your_api_key"},
         json=serp_data
     )
@@ -781,54 +1442,6 @@ def search_intelligence_analysis():
         "competitor_analysis": competitor_rankings,
         "market_insights": generate_market_insights(serp_results)
     }
-```
-
-### 🔄 n8n Workflow Integration
-
-Building an AI-powered data pipeline with n8n, Scrapeless, and Claude:
-
-```mermaid
-flowchart TD
-    A[⏰ Trigger/Schedule] --> B[✅ Collection Check]
-    B --> C[🔧 URL Configuration]
-    C --> D[🕷️ Scrapeless Web Request]
-    D --> E[🧠 Claude Data Extraction]
-    E --> F[📝 Format Output]
-    F --> G[🤖 Ollama Embeddings]
-    G --> H[🗃️ Qdrant Vector Storage]
-    H --> I[🔔 Notification]
-    
-    style A fill:#e3f2fd
-    style D fill:#e8f5e8
-    style E fill:#f3e5f5
-    style H fill:#fff3e0
-```
-
-Example n8n workflow configuration:
-
-```javascript
-// Scrapeless Web Request Node Configuration
-{
-  "method": "POST",
-  "url": "[https://api.scrapeless.com/api/v1/unlocker/request](https://api.scrapeless.com/api/v1/unlocker/request)",
-  "headers": {
-    "Content-Type": "application/json",
-    "x-api-token": "{{$env.SCRAPELESS_API_KEY}}"
-  },
-  "body": {
-    "actor": "unlocker.webunlocker",
-    "proxy": {
-      "country": "ANY"
-    },
-    "input": {
-      "url": "{{$json.target_url}}",
-      "method": "GET",
-      "redirect": true,
-      "js_render": true,
-      "js_instructions": [{"wait": 100}]
-    }
-  }
-}
 ```
 
 ## ⚡ Performance & Infrastructure
@@ -900,11 +1513,11 @@ graph TB
 
 ### 📊 Performance Features
 
-  - **⚡ Edge Computing**: 15+ global regions
-  - **🧠 Intelligent Caching**: Reduce redundant requests
-  - **📦 Batch Processing**: Handle 1000+ URLs simultaneously
-  - **🔄 Auto-scaling**: Dynamic resource allocation
-  - **🔗 Connection Pooling**: Optimized network utilization
+- **⚡ Edge Computing**: 15+ global regions
+- **🧠 Intelligent Caching**: Reduce redundant requests
+- **📦 Batch Processing**: Handle 1000+ URLs simultaneously
+- **🔄 Auto-scaling**: Dynamic resource allocation
+- **🔗 Connection Pooling**: Optimized network utilization
 
 ### 📈 Real-time Analytics
 
@@ -1029,17 +1642,17 @@ def ai_web_pipeline(url):
 
 ### 🏆 Enterprise Security Standards
 
-  - **🛡️ SOC 2 Type II Certified** ✅ - Annual third-party audit
-  - **🌍 ISO 27001:2013 Certified** ✅ - International security standard
-  - **💳 PCI DSS Level 1 Compliant** ✅ - Payment card industry security
-  - **🏛️ FedRAMP Authorized** ✅ - US Federal government ready
+- **🛡️ SOC 2 Type II Certified** ✅ - Annual third-party audit
+- **🌍 ISO 27001:2013 Certified** ✅ - International security standard
+- **💳 PCI DSS Level 1 Compliant** ✅ - Payment card industry security
+- **🏛️ FedRAMP Authorized** ✅ - US Federal government ready
 
 ### 🌍 Privacy Regulations
 
-  - **🇪🇺 GDPR Compliant** ✅ - European data protection
-  - **🇺🇸 CCPA Compliant** ✅ - California privacy rights
-  - **🇨🇦 PIPEDA Compliant** ✅ - Canadian privacy law
-  - **🇧🇷 LGPD Compliant** ✅ - Brazilian privacy regulation
+- **🇪🇺 GDPR Compliant** ✅ - European data protection
+- **🇺🇸 CCPA Compliant** ✅ - California privacy rights
+- **🇨🇦 PIPEDA Compliant** ✅ - Canadian privacy law
+- **🇧🇷 LGPD Compliant** ✅ - Brazilian privacy regulation
 
 ### 🔒 Security Architecture
 
@@ -1121,11 +1734,11 @@ flowchart TB
 
 ### 🔒 Data Protection Features
 
-  - **🔒 End-to-End Encryption** - All data in transit and at rest
-  - **🚫 Zero Data Retention** - No content storage after processing
-  - **🏷️ IP Whitelisting** - Restrict access by IP ranges
-  - **🔄 API Key Rotation** - Automated security key management
-  - **📋 Audit Logging** - Complete activity tracking
+- **🔒 End-to-End Encryption** - All data in transit and at rest
+- **🚫 Zero Data Retention** - No content storage after processing
+- **🏷️ IP Whitelisting** - Restrict access by IP ranges
+- **🔄 API Key Rotation** - Automated security key management
+- **📋 Audit Logging** - Complete activity tracking
 
 ## 🔄 Migration Guide
 
@@ -1136,10 +1749,10 @@ flowchart TB
 import requests
 
 response = requests.get(
-    "[https://app.scrapingbee.com/api/v1/](https://app.scrapingbee.com/api/v1/)",
+    "https://app.scrapingbee.com/api/v1/",
     params={
         "api_key": "your_scrapingbee_key",
-        "url": "[https://example.com](https://example.com)",
+        "url": "https://example.com",
         "render_js": "true"
     }
 )
@@ -1150,7 +1763,7 @@ from scrapeless import ScrapelessClient
 scrapeless = ScrapelessClient(api_key="your_scrapeless_key")
 actor = "scraper.universal"
 input_data = {
-    "url": "[https://example.com](https://example.com)",
+    "url": "https://example.com",
     "render_js": True
 }
 
@@ -1166,17 +1779,17 @@ result = scrapeless.scraper(actor, input=input_data)
 import requests
 
 proxies = {
-    'http': '[http://username:password@zproxy.lum-superproxy.io:22225](http://username:password@zproxy.lum-superproxy.io:22225)',
-    'https': '[https://username:password@zproxy.lum-superproxy.io:22225](https://username:password@zproxy.lum-superproxy.io:22225)'
+    'http': 'http://username:password@zproxy.lum-superproxy.io:22225',
+    'https': 'https://username:password@zproxy.lum-superproxy.io:22225'
 }
 
-response = requests.get("[https://example.com](https://example.com)", proxies=proxies)
+response = requests.get("https://example.com", proxies=proxies)
 
 # ✅ After (Scrapeless) - Simple and more powerful
 scrapeless = ScrapelessClient(api_key="your_scrapeless_key")
 actor = "scraper.universal"
 input_data = {
-    "url": "[https://example.com](https://example.com)",
+    "url": "https://example.com",
     "proxy_country": "US"
 }
 
@@ -1193,7 +1806,7 @@ from apify_client import ApifyClient
 
 apify_client = ApifyClient("your_apify_token")
 run_input = {
-    "startUrls": [{"url": "[https://example.com](https://example.com)"}],
+    "startUrls": [{"url": "https://example.com"}],
     "maxRequestRetries": 3
 }
 
@@ -1203,7 +1816,7 @@ run = apify_client.actor("apify/web-scraper").call(run_input=run_input)
 scrapeless = ScrapelessClient(api_key="your_scrapeless_key")
 actor = "scraper.universal"
 input_data = {
-    "url": "[https://example.com](https://example.com)",
+    "url": "https://example.com",
     "auto_retry": True
 }
 
@@ -1249,248 +1862,68 @@ graph LR
 
 ## 🏢 Enterprise Features
 
-### 💼 Advanced Workflow Management
+### 🎯 Dedicated Support
 
-```python
-class EnterpriseWorkflow:
-    def __init__(self, api_key):
-        self.scrapeless = ScrapelessClient(api_key=api_key)
-        self.analytics = UsageAnalytics(api_key=api_key)
-    
-    def batch_scrape_with_optimization(self, urls, max_retries=3):
-        """
-        🏢 Enterprise-grade batch scraping with intelligent optimization
-        """
-        results = []
-        
-        # 1. 📊 Analyze request patterns for optimization
-        print("📊 Analyzing request patterns...")
-        patterns = self.analytics.analyze_patterns(urls)
-        
-        # 2. 🎯 Group similar requests for efficiency
-        print("🎯 Grouping similar requests...")
-        grouped_requests = self.group_by_similarity(urls, patterns)
-        
-        # 3. ⚡ Execute with optimal settings
-        print("⚡ Executing optimized requests...")
-        for group in grouped_requests:
-            actor = self.select_optimal_actor(group)
-            
-            for url in group.urls:
-                for attempt in range(max_retries):
-                    try:
-                        input_data = {
-                            "url": url,
-                            "🌍 proxy_country": group.optimal_country,
-                            "🖥️ render_js": group.requires_js,
-                            "🧠 ai_extract": group.use_ai_extraction
-                        }
-                        
-                        result = self.scrapeless.scraper(actor, input=input_data)
-                        
-                        results.append({
-                            "url": url,
-                            "✅ success": True,
-                            "📊 data": result,
-                            "🔄 attempt": attempt + 1,
-                            "💰 cost": self.calculate_cost(input_data)
-                        })
-                        break
-                        
-                    except Exception as e:
-                        if attempt == max_retries - 1:
-                            results.append({
-                                "url": url,
-                                "❌ success": False,
-                                "🚨 error": str(e),
-                                "🔄 attempts": max_retries
-                            })
-                        else:
-                            time.sleep(2 ** attempt)  # Exponential backoff
-        
-        return {
-            "📊 results": results,
-            "📈 analytics": self.get_batch_analytics(results),
-            "💰 cost_optimization": self.get_cost_savings(results)
-        }
-```
+- **👨‍💼 Dedicated Support Manager** - Named customer success representative
+- **⚡ Priority Support Queue** - Faster response times
+- **📋 Custom SLA** - Guaranteed performance levels
+- **🎓 On-site Training** - Team education and best practices
+- **🏗️ Architecture Review** - Optimization consultations
 
-### 💰 Cost Optimization Engine
+### 🌐 Available Services (Go SDK)
 
-```python
-def enterprise_cost_optimization():
-    """
-    🧠 Intelligent cost optimization for enterprise usage
-    """
-    scrapeless = ScrapelessClient(api_key='your-api-key')
-    
-    # 📊 Get usage analytics
-    analytics = scrapeless.get_usage_analytics(period="30d")
-    
-    optimization_report = {
-        "💰 current_spend": analytics.total_cost,
-        "💡 potential_savings": {},
-        "📋 recommendations": []
-    }
-    
-    # 🌍 Analyze proxy usage
-    if analytics.proxy_usage["premium"] > 0.8:
-        savings = analytics.total_cost * 0.15
-        optimization_report["potential_savings"]["🌍 proxy_optimization"] = savings
-        optimization_report["recommendations"].append({
-            "type": "proxy_optimization",
-            "description": "🎯 Switch 30% of simple requests to standard proxies",
-            "💰 savings": savings,
-            "📊 impact": "minimal"
-        })
-    
-    # 🖥️ Analyze JS rendering usage  
-    if analytics.js_rendering_ratio > 0.6:
-        savings = analytics.total_cost * 0.12
-        optimization_report["potential_savings"]["🖥️ js_optimization"] = savings
-        optimization_report["recommendations"].append({
-            "type": "js_optimization", 
-            "description": "⚡ Disable JS rendering for static content pages",
-            "💰 savings": savings,
-            "📊 impact": "none"
-        })
-    
-    total_potential_savings = sum(optimization_report["potential_savings"].values())
-    optimization_report["💰 total_potential_savings"] = total_potential_savings
-    optimization_report["📊 savings_percentage"] = (total_potential_savings / analytics.total_cost) * 100
-    
-    return optimization_report
-```
+The Go SDK provides comprehensive access to all Scrapeless services:
 
-### 📊 Real-time Monitoring Dashboard
-
-```python
-def enterprise_monitoring_dashboard():
-    """
-    📊 Real-time monitoring for enterprise deployments
-    """
-    scrapeless = ScrapelessClient(api_key='your-api-key')
-    
-    # 📊 Get real-time metrics
-    metrics = scrapeless.get_real_time_metrics()
-    
-    dashboard_data = {
-        "🎯 performance": {
-            "✅ success_rate": f"{metrics.success_rate}%",
-            "⚡ avg_response_time": f"{metrics.avg_response_time}s", 
-            "📊 requests_per_minute": metrics.rpm,
-            "🔄 active_sessions": metrics.active_sessions
-        },
-        "🏥 health": {
-            "🔗 api_status": "🟢 healthy" if metrics.api_uptime > 99.9 else "🟡 degraded",
-            "🌍 proxy_pool_status": "🟢 optimal" if metrics.proxy_availability > 95 else "🟡 limited",
-            "🚨 error_rate": f"{metrics.error_rate}%",
-            "⏱️ queue_length": metrics.queue_length
-        },
-        "💰 costs": {
-            "📅 daily_spend": f"${metrics.daily_cost:.2f}",
-            "📊 monthly_projection": f"${metrics.monthly_projection:.2f}",
-            "💳 cost_per_request": f"${metrics.cost_per_request:.4f}",
-            "💡 savings_vs_competitors": f"{metrics.savings_percentage}%"
-        },
-        "🚨 alerts": metrics.active_alerts
-    }
-    
-    return dashboard_data
-```
-
-### 👥 Team Management & Access Control
-
-```python
-def setup_enterprise_team_access():
-    """
-    👥 Configure team access and permissions
-    """
-    scrapeless = ScrapelessClient(api_key='your-enterprise-key')
-    
-    # 🎭 Create team roles
-    roles = {
-        "🔑 admin": {
-            "permissions": ["all"],
-            "💰 cost_limit": None,
-            "📊 rate_limit": None
-        },
-        "👨‍💻 developer": {
-            "permissions": ["scrape", "analyze", "monitor"],
-            "💰 cost_limit": 1000,  # $1000 per month
-            "📊 rate_limit": 10000  # 10k requests per day
-        },
-        "📊 analyst": {
-            "permissions": ["analyze", "monitor"],
-            "💰 cost_limit": 100,   # $100 per month
-            "📊 rate_limit": 1000   # 1k requests per day
-        }
-    }
-    
-    # 👥 Add team members
-    team_members = [
-        {"email": "john@company.com", "role": "admin"},
-        {"email": "sarah@company.com", "role": "developer"},
-        {"email": "mike@company.com", "role": "analyst"}
-    ]
-    
-    for member in team_members:
-        scrapeless.add_team_member(
-            email=member["email"],
-            role=member["role"],
-            permissions=roles[member["role"]]["permissions"],
-            cost_limit=roles[member["role"]]["cost_limit"],
-            rate_limit=roles[member["role"]]["rate_limit"]
-        )
-    
-    print("✅ Team access configured successfully")
-    return "👥 Team management setup complete"
-```
+- `Client.Browser` - Browser session management
+- `Client.Scraping` - Web scraping and data extraction
+- `Client.DeepSerp` - Search engine result extraction
+- `Client.Universal` - Universal data extraction
+- `Client.Proxy` - Proxy management
+- `Client.Actor` - Actor system for custom automation
+- `Client.Storage` - Data storage solutions
+- `Client.Server` - HTTP service
+- `Client.Router` - Route access
+- `Client.Captcha` - CAPTCHA processing
 
 ## 📚 Documentation & Resources
 
 ### 📖 Complete Documentation
 
-  - **[API Reference](https://docs.scrapeless.com/api)** - Complete API documentation
-  - **[SDK Documentation](https://docs.scrapeless.com/en/sdk/overview/)** - All language SDKs
-  - **[Integration Guides](https://docs.scrapeless.com/en/integrations/nstbrowser/introduction/)** - n8n, Zapier, Airflow
-  - **[Troubleshooting](https://docs.scrapeless.com/en/general/faq/subscription/)** - Common issues
+- **[API Reference](https://docs.scrapeless.com/api)** - Complete API documentation
+- **[SDK Documentation](https://docs.scrapeless.com/en/sdk/overview/)** - All language SDKs
+- **[Integration Guides](https://docs.scrapeless.com/en/integrations/nstbrowser/introduction/)** - n8n, Zapier, Airflow
+- **[Troubleshooting](https://docs.scrapeless.com/en/general/faq/subscription/)** - Common issues
 
 ### 🎓 Learning Resources
 
-  - **🎥 [Video Tutorials](https://www.youtube.com/@Scrapeless)** - Step-by-step guides
-  - **📝 [Blog](https://www.scrapeless.com/blog)** - Latest updates and tutorials
+- **🎥 [Video Tutorials](https://www.youtube.com/@Scrapeless)** - Step-by-step guides
+- **📝 [Blog](https://www.scrapeless.com/blog)** - Latest updates and tutorials
 
 ### 💬 Community & Support
 
-  - **💬 [Discord Community](https://discord.com/invite/xBcTfGPjCQ)** - 24/7 developer support
-  - **🐙 [GitHub](https://github.com/scrapeless-ai)** - Open source tools and examples
-  - **📊 [Status Page](https://status.scrapeless.com)** - Real-time system status
-
-### 🏢 Enterprise Support
-
-  - **👨‍💼 Dedicated Support Manager** - Named customer success representative
-  - **⚡ Priority Support Queue** - Faster response times
-  - **📋 Custom SLA** - Guaranteed performance levels
-  - **🎓 On-site Training** - Team education and best practices
-  - **🏗️ Architecture Review** - Optimization consultations
+- **💬 [Discord Community](https://discord.com/invite/xBcTfGPjCQ)** - 24/7 developer support
+- **🐙 [GitHub](https://github.com/scrapeless-ai)** - Open source tools and examples
+- **📊 [Status Page](https://status.scrapeless.com)** - Real-time system status
 
 ## 🎉 Customer Success Stories
 
 ### 💬 Enterprise Testimonials
 
-> *"🚀 Scrapeless reduced our web scraping costs by 67% while improving our success rate from 65% to 98.5%. The AI-optimized data output directly feeds our machine learning models."* \> **— Head of Data Engineering, Fortune 100 Tech Company**
+> *"🚀 Scrapeless reduced our web scraping costs by 67% while improving our success rate from 65% to 98.5%. The AI-optimized data output directly feeds our machine learning models."*  
+> **— Head of Data Engineering, Fortune 100 Tech Company**
 
-> *"⚡ The browser automation capabilities are unmatched. We process 10M+ pages monthly with zero detection issues. Our competitive intelligence is now real-time instead of weekly."* \> **— CTO, Leading E-commerce Platform**
+> *"⚡ The browser automation capabilities are unmatched. We process 10M+ pages monthly with zero detection issues. Our competitive intelligence is now real-time instead of weekly."*  
+> **— CTO, Leading E-commerce Platform**
 
-> *"🔍 Deep SerpApi transformed our SEO workflows. Real-time SERP data with 1-2 second response times powers our competitive intelligence platform. ROI was positive within the first week."* \> **— VP of Marketing, Digital Agency**
+> *"🔍 Deep SerpApi transformed our SEO workflows. Real-time SERP data with 1-2 second response times powers our competitive intelligence platform. ROI was positive within the first week."*  
+> **— VP of Marketing, Digital Agency**
 
 ### 🏆 Industry Recognition
 
-  - **🥇 Best Web Scraping Platform 2024** - Product Hunt
-  - **⭐ 4.9/5 Star Rating** - G2 Reviews (500+ reviews)
-  - **🏅 Top Developer Tool** - GitHub Trending
-  - **💎 Editor's Choice** - TechCrunch
+- **🥇 Best Web Scraping Platform 2024** - Product Hunt
+- **⭐ 4.9/5 Star Rating** - G2 Reviews (500+ reviews)
+- **🏅 Top Developer Tool** - GitHub Trending
+- **💎 Editor's Choice** - TechCrunch
 
 ### 📊 ROI Case Studies
 
@@ -1506,10 +1939,10 @@ pie title "🛒 E-commerce Results After 3 Months"
 
 **Key Results:**
 
-  - **📈 1,000x scale increase** (50 → 50,000 products monitored)
-  - **⚡ 288x faster response** (3 days → 15 minutes)
-  - **💰 $2.3M additional revenue** from dynamic pricing
-  - **🎯 99.7% data accuracy** vs 34% with previous solution
+- **📈 1,000x scale increase** (50 → 50,000 products monitored)
+- **⚡ 288x faster response** (3 days → 15 minutes)
+- **💰 $2.3M additional revenue** from dynamic pricing
+- **🎯 99.7% data accuracy** vs 34% with previous solution
 
 #### 🏦 Financial Services: Risk Reduction & Revenue Growth
 
@@ -1518,10 +1951,10 @@ pie title "🛒 E-commerce Results After 3 Months"
 
 **Results:**
 
-  - **⚡ 30-minute advantage** over competitors in market sentiment
-  - **💰 $15M additional revenue** from faster trading decisions
-  - **🛡️ Zero compliance issues** (vs 3-5 annual violations)
-  - **📈 23% market share growth**
+- **⚡ 30-minute advantage** over competitors in market sentiment
+- **💰 $15M additional revenue** from faster trading decisions
+- **🛡️ Zero compliance issues** (vs 3-5 annual violations)
+- **📈 23% market share growth**
 
 ## 📊 Performance Benchmarks
 
@@ -1562,37 +1995,35 @@ Oxylabs: $1.60 █████████████████████�
 
 ### 🆓 Free Trial
 
-1.  **📝 [Sign Up](https://app.scrapeless.com/signup)** - No credit card required
-2.  **🔑 Get API Key** - Instant access to all features
-3.  **📦 Install SDK** - `pip install scrapeless` or `npm install @scrapeless-ai/sdk`
-4.  **📖 Follow Quick Start** - Working in 5 minutes
-5.  **📈 Scale Up** - Upgrade when ready
+1. **📝 [Sign Up](https://app.scrapeless.com/signup)** - No credit card required
+2. **🔑 Get API Key** - Instant access to all features
+3. **📦 Install SDK** - Choose your preferred language
+4. **📖 Follow Quick Start** - Working in 5 minutes
+5. **📈 Scale Up** - Upgrade when ready
 
 ### 🏢 Enterprise Contact
 
-  - **💰 Custom Pricing** - Volume discounts available
-  - **👨‍💼 Dedicated Support** - Named customer success manager
-  - **📋 SLA Guarantees** - 99.99% uptime commitment
-  - **🏗️ On-premise Options** - Private cloud deployment
-  - **📧 Email**: enterprise@scrapeless.com
-  - **📞 Phone**: +1 (555) 123-4567
+- **💰 Custom Pricing** - Volume discounts available
+- **👨‍💼 Dedicated Support** - Named customer success manager
+- **📋 SLA Guarantees** - 99.99% uptime commitment
+- **🏗️ On-premise Options** - Private cloud deployment
+- **📧 Email**: enterprise@scrapeless.com
+- **📞 Phone**: +1 (555) 123-4567
 
 ### 🌐 Connect With Us
 
-  - **🌐 Website**: [scrapeless.com](https://www.scrapeless.com)
-  - **📚 Documentation**: [docs.scrapeless.com](https://docs.scrapeless.com)
-  - **💬 Discord**: [https://discord.com/invite/xBcTfGPjCQ](https://discord.com/invite/xBcTfGPjCQ)
-  - **💼 LinkedIn**: [Follow Us](https://www.linkedin.com/company/scrapeless/posts/?feedView=all)
-  - **📧 Email**: support@scrapeless.com
+- **🌐 Website**: [scrapeless.com](https://www.scrapeless.com)
+- **📚 Documentation**: [docs.scrapeless.com](https://docs.scrapeless.com)
+- **💬 Discord**: [Discord Community](https://discord.com/invite/xBcTfGPjCQ)
+- **💼 LinkedIn**: [Follow Us](https://www.linkedin.com/company/scrapeless/posts/?feedView=all)
+- **📧 Email**: support@scrapeless.com
 
 ## 📄 License
 
 This project is licensed under the MIT License. Platform usage is governed by our [Terms of Service](https://www.scrapeless.com/terms).
 
-⭐ **Star this repository if you find it helpful\!**
+⭐ **Star this repository if you find it helpful!**
 
-[](https://github.com/scrapeless-ai/examples)
-
-**🚀 Ready to transform your data strategy? [Start your free trial today\!](https://app.scrapeless.com/signup) 🎯**
+**🚀 Ready to transform your data strategy? [Start your free trial today!](https://app.scrapeless.com/signup) 🎯**
 
 ### 🎊 **Join 50,000+ Developers Using Scrapeless** 🎊
