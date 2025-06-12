@@ -39,7 +39,7 @@ The most advanced, cost-effective, and AI-optimized web scraping platform for en
 - [🔐 Security & Compliance](#-security--compliance)
 - [🔄 Migration Guide](#-migration-guide)
 - [🏢 Enterprise Features](#-enterprise-features)
-- [📞 Support & Resources](#-support--resources)
+- [📚 Documentation & Resources](#-documentation--resources)
 
 ## 🌟 Why Scrapeless
 
