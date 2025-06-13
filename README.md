@@ -19,7 +19,7 @@ The most advanced, cost-effective, and AI-optimized web scraping platform for en
 </p>
 
 <p align="center">
-<strong>🎯 46-84% cheaper than competitors • ⚡ 98.5%+ success rate • 🚀 1-2s response time • 🌍 80M+ proxy IPs</strong>
+<strong>🎯 46-84% cheaper than competitors • ⚡ 98.5%+ success rate • 🚀 1-2s response time • 🌍 70M+ proxy IPs</strong>
 </p>
 
 ## 📋 Table of Contents
@@ -62,7 +62,7 @@ The most advanced, cost-effective, and AI-optimized web scraping platform for en
 - **⚡ 1-2s Response Time** - Fastest processing
 - **💰 46-84% Cost Savings** - Most affordable solution  
 - **🧠 AI-Native Architecture** - Built for modern workflows
-- **🌍 Global Scale** - 80M+ IPs, 195+ countries
+- **🌍 Global Scale** - 70M+ IPs, 195+ countries
 - **🛡️ Enterprise Security** - SOC 2, GDPR, ISO 27001
 
 ### 📈 Speed Comparison Chart
@@ -99,7 +99,7 @@ graph TB
     H --> J[📊 Business Intelligence]
     H --> K[🤖 LLM Applications]
     
-    L[🌍 80M+ Global IPs] --> G
+    L[🌍 70M+ Global IPs] --> G
     M[🔒 Enterprise Security] --> B
     N[⚡ 99.95% Uptime] --> B
     
@@ -126,7 +126,7 @@ flowchart TD
     E --> H[🔍 Deep SerpApi]
     E --> I[📊 Specialized APIs]
     
-    F --> J[🌍 Global Proxy Network<br/>🔹 80M+ IPs, 195+ Countries]
+    F --> J[🌍 Global Proxy Network<br/>🔹 70M+ IPs, 195+ Countries]
     G --> J
     H --> J
     I --> J
@@ -158,50 +158,55 @@ flowchart TD
 
 ### 🚀 Universal Scraping API
 
-**The smartest web scraping API that adapts to any website**
+**The smartest web scraping API that adapts to any website with web unlocker, captcha solver, JS rendering and high success rates**
 
 - **🧠 AI-Powered Adaptation**: Automatically adjusts to website changes
 - **🖥️ JavaScript Rendering**: Full Chrome browser simulation
-- **🔓 99.3% CAPTCHA Solving**: Advanced ML-based CAPTCHA bypass
+- **🔓 CAPTCHA Solving**: Advanced ML-based CAPTCHA bypass
 - **🔄 Real-time Retry Logic**: Intelligent error handling and recovery
 - **📊 Multiple Output Formats**: JSON, XML, CSV, Raw HTML
 
 ### 🌐 Scraping Browser
 
-**Unlimited concurrent browser automation with enterprise-grade stealth**
+**Cloud browser with strong anti-detection capabilities and scalability**
 
+- **Browser**: A cloud browser developed based on Chromium, with strong customizability, anti-detection capabilities, and scalability
+- **Crawl**: Single page crawling or full-depth recursive crawling to simplify large-scale extraction workflows. Compatible with JSON, Markdown, Metadata, HTML, Links, and Screenshot formats
+- **Universal API**: Unlocker website using Web Unlocker, Captcha, and JS Render at high successful rates
 - **🎭 Chrome Kernel Simulation**: Undetectable browser fingerprinting
 - **♾️ Unlimited Concurrency**: Scale to thousands of parallel sessions
 - **⏱️ Session Management**: Persistent sessions with custom TTL
 - **🔗 WebSocket Integration**: Real-time browser control
-- **🔧 Compatible with**: Puppeteer, Playwright, Selenium
+- **🔧 Compatible with**: Puppeteer, Playwright
 
 ### 🔍 Deep SerpApi
 
-**Purpose-built for AI/LLM applications with 20+ Google SERP types**
+**Purpose-built for AI/LLM applications focusing on Google Search and Google Trends with MCP server support**
 
 - **⚡ 1-2 Second Response**: Fastest SERP API in the market
-- **📊 20+ SERP Types**: Search, Images, News, Shopping, Local, etc.
+- **🔍 Google Search**: Comprehensive search results extraction
+- **📈 Google Trends**: Real-time trend analysis and data
 - **🤖 LLM-Optimized Output**: Structured data ready for AI consumption
-- **🕒 Real-time Data**: Live search results with geo-targeting
+- **🤖 MCP Server Support**: Model Context Protocol integration for seamless LLM workflows
 - **🌍 Multi-language Support**: 100+ languages and locales
+- **📊 Additional Features**: Maps, flights, shopping results available
 
 ### 📊 Specialized Scraping APIs
 
-**Pre-built extractors for 100+ popular websites**
+**Pre-built extractors for popular websites**
 
 - **🛒 E-commerce**: Amazon, Shopee, Walmart, Temu, Lazada
-- **📱 Social Media**: Instagram, TikTok, LinkedIn
-- **✈️ Travel**: Airbnb, Booking.com, LATAM, Localiza
-- **🔍 Search Engines**: Google Trends, Bing, DuckDuckGo
-- **💼 Business Data**: Crunchbase, LinkedIn, Yellow Pages
+- **📱 Social Media**: Instagram, TikTok
+- **✈️ Travel**: Airbnb, LATAM, Localiza
+- **🔍 Search Engines**: Google Trends
+- **💼 Business Data**: Crunchbase
 
 ### 🌍 Global Proxy Network
 
-**80M+ premium IPs with 99.99% ban avoidance**
+**70M+ premium IPs with intelligent rotation**
 
-- **🏠 80M+ Residential IPs**: Across 195+ countries
-- **🏢 20M+ Datacenter IPs**: High-speed dedicated proxies
+- **🏠 70M+ Residential IPs**: Across 195+ countries
+- **🏢 Datacenter IPs**: High-speed dedicated proxies
 - **🤖 Smart Rotation**: AI-powered IP selection
 - **🎯 Geo-targeting**: City-level precision
 - **🔗 Protocol Support**: HTTP, HTTPS, SOCKS5
@@ -210,7 +215,7 @@ flowchart TD
 
 ### 🚀 Quick Setup
 
-1. **📝 Sign up** at [app.scrapeless.com](https://app.scrapeless.com)
+1. **📝 Sign up** at [app.scrapeless.com?utm_source=owen](https://app.scrapeless.com?utm_source=owen)
 2. **🔑 Get your API key** from the dashboard
 3. **📦 Install SDK** (choose your language)
 4. **🎯 Make your first request**
@@ -313,40 +318,6 @@ input_data = {
 }
 
 result = scrapeless.solver_captcha(actor, input=input_data, timeout=10)
-```
-
-#### Brazilian Business Data Scraping
-
-```python
-from scrapeless import ScrapelessClient
-
-scrapeless = ScrapelessClient(api_key='your-api-key')
-
-# Consopt scraping
-def br_consopt():
-    result = scrapeless.scraper(
-        actor="scraper.consopt",
-        input={
-            "taxId": "25032537000164",
-        },
-        proxy={
-            "country": "US",
-        }
-    )
-    print(result)
-
-# Solucoes scraping
-def br_solucoes():
-    result = scrapeless.scraper(
-        actor="scraper.solucoes",
-        input={
-            "taxId": "37.335.118/0001-80",
-        },
-        proxy={
-            "country": "US",
-        }
-    )
-    print(result)
 ```
 
 ### Node.js Examples 🟨
@@ -1122,7 +1093,7 @@ class YourExistingLLMScraper:
 - ✅ **98.5% success rate** - Reliable data for AI
 - ✅ **Zero maintenance** - Focus on AI, not infrastructure  
 - ✅ **Built-in CAPTCHA solving** - 99.3% solve rate
-- ✅ **Global proxy network** - 80M+ IPs across 195+ countries
+- ✅ **Global proxy network** - 70M+ IPs across 195+ countries
 - ✅ **JavaScript rendering** - Full modern website support
 - ✅ **Enterprise security** - SOC 2, GDPR compliant
 
@@ -1248,13 +1219,14 @@ except Exception as e:
 
 ## 💰 Pricing
 
-| Plan | Monthly Cost | Universal API | Deep SerpApi | Browser Hours | Proxy Data | Concurrency |
-|------|-------------|---------------|--------------|---------------|------------|-------------|
-| **🎯 Basic** | **Pay-as-you-go** | $0.20/1K | $1.50/1K | $0.090/hour | $1.80/GB | 50 |
-| **📈 Growth** | **$49/month** | $0.18/1K | $1.35/1K | $0.081/hour | $1.62/GB | 100 |
-| **🚀 Scale** | **$199/month** | $0.17/1K | $1.27/1K | $0.076/hour | $1.53/GB | 200 |
-| **💼 Business** | **$399/month** | $0.16/1K | $1.20/1K | $0.072/hour | $1.44/GB | 400 |
-| **🏢 Enterprise** | **Custom** | Custom | Custom | Custom | Custom | Unlimited |
+| Plan | Monthly Cost | Universal API | Deep SerpApi | Browser Hours | Proxy Data | Concurrency | Discount |
+|------|-------------|---------------|--------------|---------------|------------|-------------|----------|
+| **🎯 Basic** | **Pay-as-you-go** | $0.20/1K | $1.50/1K | $0.090/hour | $1.80/GB | 50 | - |
+| **📈 Growth** | **$49/month** | $0.18/1K | $1.35/1K | $0.081/hour | $1.62/GB | 100 | **10% off** |
+| **🚀 Scale** | **$199/month** | $0.17/1K | $1.27/1K | $0.076/hour | $1.53/GB | 200 | **15% off** |
+| **💼 Business** | **$399/month** | $0.16/1K | $1.20/1K | $0.072/hour | $1.44/GB | 400 | **20% off** |
+| **🏢 Enterprise** | **Custom** | Custom | Custom | Custom | Custom | Unlimited | **25% off** |
+| **🏢 Enterprise Plus** | **Custom** | Custom | Custom | Custom | Custom | Unlimited | **30% off** |
 
 ### 🎁 What's Included FREE
 
@@ -1389,7 +1361,7 @@ def business_lead_discovery():
     # 🔍 Search business directories
     directory_actor = "scraper.business_directory"
     directory_data = {
-        "platform": "yellowpages",
+        "platform": "crunchbase",
         "location": "San Francisco",
         "category": "software_companies",
         "extract": ["company_name", "phone", "email", "website", "employees"]
@@ -1901,7 +1873,7 @@ The Go SDK provides comprehensive access to all Scrapeless services:
 
 ### 📖 Complete Documentation
 
-- **[API Reference](https://docs.scrapeless.com/api)** - Complete API documentation
+- **[API Reference](https://apidocs.scrapeless.com/)** - Complete API documentation
 - **[SDK Documentation](https://docs.scrapeless.com/en/sdk/overview/)** - All language SDKs
 - **[Integration Guides](https://docs.scrapeless.com/en/integrations/nstbrowser/introduction/)** - n8n, Zapier, Airflow
 - **[Troubleshooting](https://docs.scrapeless.com/en/general/faq/subscription/)** - Common issues
@@ -2007,7 +1979,7 @@ Oxylabs: $1.60 █████████████████████�
 
 ### 🆓 Free Trial
 
-1. **📝 [Sign Up](https://app.scrapeless.com/signup)** - No credit card required
+1. **📝 [Sign Up](https://app.scrapeless.com/signup?utm_source=owen)** - No credit card required
 2. **🔑 Get API Key** - Instant access to all features
 3. **📦 Install SDK** - Choose your preferred language
 4. **📖 Follow Quick Start** - Working in 5 minutes
@@ -2023,10 +1995,11 @@ Oxylabs: $1.60 █████████████████████�
 
 ### 🌐 Connect With Us
 
-- **🌐 Website**: [scrapeless.com](https://www.scrapeless.com)
+- **🌐 Website**: [scrapeless.com](https://www.scrapeless.com?utm_source=owen)
 - **📚 Documentation**: [docs.scrapeless.com](https://docs.scrapeless.com)
 - **💬 Discord**: [Discord Community](https://discord.com/invite/xBcTfGPjCQ)
 - **💼 LinkedIn**: [Follow Us](https://www.linkedin.com/company/scrapeless/posts/?feedView=all)
+- **🐦 Twitter**: [Follow Us](https://x.com/Scrapelessteam)
 - **📧 Email**: market@scrapeless.com
 
 ## 📄 License
@@ -2035,4 +2008,4 @@ This project is licensed under the MIT License. Platform usage is governed by ou
 
 ⭐ **Star this repository if you find it helpful!**
 
-**🚀 Ready to transform your data strategy? [Start your free trial today!](https://app.scrapeless.com/signup) 🎯**
+**🚀 Ready to transform your data strategy? [Start your free trial today!](https://app.scrapeless.com/signup?utm_source=owen) 🎯**
