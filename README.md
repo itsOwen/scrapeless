@@ -1,7 +1,7 @@
 <h1 align="center">🚀 Scrapeless - The Future of Web Scraping 👑</h1>
 
 <p align="center">
-  <img src="./scrapeless.png" alt="Scrapeless" />
+  <img src="./scrapeless_main.png" alt="Scrapeless" />
 </p>
 
 <div align="center">
